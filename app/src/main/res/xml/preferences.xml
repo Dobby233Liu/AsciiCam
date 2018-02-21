@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-	<PreferenceCategory android:title="Preferences">
+	<PreferenceCategory>
         <EditTextPreference android:key="@string/whiteOnBlackPixelCharsPrefId" android:enabled="true" 
             android:title="@string/whiteOnBlackPixelCharsPrefTitle" android:dialogMessage="@string/whiteOnBlackPixelCharsPrefMessage" />
         <EditTextPreference android:key="@string/blackOnWhitePixelCharsPrefId" android:enabled="true" 
