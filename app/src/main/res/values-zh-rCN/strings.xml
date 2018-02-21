@@ -1,59 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">AsciiCam</string>
-    <string name="aboutText">AsciiCam 1.2.3\n© 2012-2017 Brian Nenninger\n\nComments and bug reports: bnenning@gmail.com\n\nSource Code: https://github.com/dozingcat/AsciiCam\n\nTo take a picture, touch the shutter icon in the upper left. The smaller icons under the shutter in order are:\n- Color: Cycles between color modes of black and white, primary colors only, and all colors.\n- Settings: Allows you to change the characters used to display the image. You can use different characters for each color mode. There is also an option to automatically create ASCII images from pictures you take with the standard camera app.\n- Gallery: Shows a list of all the pictures you\'ve taken. Touch an image to view it full screen, where you will have the option to delete it, or share it as an image, HTML, or text.\n- Convert to ASCII: Allows you to select an existing picture on your device, which will be converted to an ASCII image. (The original file will not be modified).\n- Switch Camera: Switches between rear and front facing cameras.\n\nAsciiCam contains code and images from the Android Open Source Project, used under the terms of the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.\n\nColor wheel image by Mazenl77 from http://findicons.com/pack/679/nx10, used under the Creative Commons CC-BY license. Convert icon by Oxygen Icons from http://openiconlibrary.sourceforge.net/gallery2/?./Icons/actions/format-font-size-less.png, used under the Creative Commons CC-BY-SA license. Material icons from https://design.google.com/icons/, used under the Creative Commons CC-BY license.</string>
-    <string name="noImagesFound">You have not saved any pictures yet.</string>
-    <string name="errorSavingPicture">Error saving picture</string>
+    <string name="aboutText">AsciiCam 1.2.3\n© 2012-2017 Brian Nenninger\n\n评论和bug报告: bnenning@gmail.com\n\n源代码: https://github.com/dozingcat/AsciiCam\n\n（不废话了）\n\n此应用含有ASOP的资源，版权为 Apache License, 版本 2.0: http://www.apache.org/licenses/LICENSE-2.0.\n\n（blabla其他版权信息）\n\nLWYS汉化。</string>
+    <string name="noImagesFound">没有任何图片存在</string>
+    <string name="errorSavingPicture">保存图片失败</string>
 
-	<string name="deleteImageButtonLabel">Delete Picture</string>
-	<string name="shareButtonLabel">Share Picture</string>
-	<string name="exitViewImageButtonLabel">Return</string>
+	<string name="deleteImageButtonLabel">删除图片</string>
+	<string name="shareButtonLabel">分享</string>
+	<string name="exitViewImageButtonLabel">关闭</string>
 
-	<string name="shareDialogTitle">How do you want to share this picture?</string>
-	<string name="shareImageOptionLabel">Share Image</string>
-	<string name="shareHtmlOptionLabel">Share HTML</string>
-	<string name="shareTextOptionLabel">Share Text</string>
-	<string name="shareDialogYesLabel">Share</string>
-	<string name="shareDialogNoLabel">Cancel</string>
+	<string name="shareDialogTitle">分享方法</string>
+	<string name="shareImageOptionLabel">作为图片</string>
+	<string name="shareHtmlOptionLabel">作为 HTML</string>
+	<string name="shareTextOptionLabel">作为文本文件</string>
+	<string name="shareDialogYesLabel">分享</string>
+	<string name="shareDialogNoLabel">取消</string>
 
-	<string name="shareImageTitle">Share image using:</string>
-	<string name="shareHtmlTitle">Share HTML using:</string>
-	<string name="shareTextTitle">Share text using:</string>
+	<string name="shareImageTitle">使用以下方法分享：</string>
+	<string name="shareHtmlTitle">@string/shareImageTitle</string>
+	<string name="shareTextTitle">@string/shareImageTitle</string>
 
-	<string name="galleryButtonLabel">Gallery</string>
-	<string name="aboutButtonLabel">About</string>
-	<string name="preferencesButtonLabel">Preferences</string>
+	<string name="galleryButtonLabel">图库</string>
+	<string name="aboutButtonLabel">关于</string>
+	<string name="preferencesButtonLabel">设置</string>
 
-	<string name="pixelCharsPrefIdPrefix">pixelChars.</string>
+	
+    <string name="whiteOnBlackPixelCharsPrefTitle">黑字母显示为白颜色</string>
+    <string name="whiteOnBlackPixelCharsPrefSummary">黑白模式的字母</string>
+    <string name="whiteOnBlackPixelCharsPrefMessage">在黑色图像上输入字符以用于白色，从最暗到最亮，或者在保留空白以使用默认值：.:oO8@</string>
 
-    <string name="whiteOnBlackPixelCharsPrefId">pixelChars.WHITE_ON_BLACK</string>
-    <string name="whiteOnBlackPixelCharsPrefTitle">White on black characters</string>
-    <string name="whiteOnBlackPixelCharsPrefSummary">Characters for white on black mode.</string>
-    <string name="whiteOnBlackPixelCharsPrefMessage">Enter characters to use for white on black images from darkest to brightest, or leave blank for the default of .:oO8@</string>
+    <string name="blackOnWhitePixelCharsPrefTitle">白加黑模式</string>
+    <string name="blackOnWhitePixelCharsPrefSummary">白加黑模式的字母</string>
+    <string name="blackOnWhitePixelCharsPrefMessage">在黑暗的白色图像上输入最暗到最亮的字符，或者保留空白以使用默认值：#o:..</string>
 
-    <string name="blackOnWhitePixelCharsPrefId">pixelChars.BLACK_ON_WHITE</string>
-    <string name="blackOnWhitePixelCharsPrefTitle">Black on white characters</string>
-    <string name="blackOnWhitePixelCharsPrefSummary">Characters for black on white mode.</string>
-    <string name="blackOnWhitePixelCharsPrefMessage">Enter characters to use for black on white images from darkest to brightest, or leave blank for the default of #o:..</string>
+ 
+    <string name="ansiColorPixelCharsPrefTitle">ANSI 彩色字母</string>
+    <string name="ansiColorPixelCharsPrefSummary">ANSI 彩色模式的字母.</string>
+    <string name="ansiColorPixelCharsPrefMessage">输入在最暗到最亮的图像中使用的字符，或者留空以使用默认值：.:oO8@</string>
 
-    <string name="ansiColorPixelCharsPrefId">pixelChars.ANSI_COLOR</string>
-    <string name="ansiColorPixelCharsPrefTitle">ANSI color characters</string>
-    <string name="ansiColorPixelCharsPrefSummary">Characters for ANSI color mode.</string>
-    <string name="ansiColorPixelCharsPrefMessage">Enter characters to use in images from darkest to brightest, or leave blank for the default of .:oO8@</string>
+   
+    <string name="fullColorPixelCharsPrefTitle">全色字母</string>
+    <string name="fullColorPixelCharsPrefSummary">全色模式的字母.</string>
+    <string name="fullColorPixelCharsPrefMessage">输入字符用于图像从最暗到最亮。全彩色模式通常在少数甚至只有一个字符的情况下效果最佳。留空为默认的08@</string>
 
-    <string name="fullColorPixelCharsPrefId">pixelChars.FULL_COLOR</string>
-    <string name="fullColorPixelCharsPrefTitle">Full color characters</string>
-    <string name="fullColorPixelCharsPrefSummary">Characters for full color mode.</string>
-    <string name="fullColorPixelCharsPrefMessage">Enter characters to use in images from darkest to brightest. Full color mode usually works best with fewer or even just one character. Leave blank for default of O8@</string>
+    
+    <string name="autoConvertPicturesPrefTitle">自动转换图片</string>
 
-    <string name="autoConvertPicturesPrefId">autoConvertPictures</string>
-    <string name="autoConvertPicturesPrefTitle">Automatically convert camera pictures</string>
+    <string name="controlsOnLeftPrefTitle">左撇子专用</string>
 
-    <string name="controlsOnLeftPrefId">controlsOnLeft</string>
-    <string name="controlsOnLeftPrefTitle">Controls on left</string>
-
-    <string name="cameraPermissionRequired">"AsciiCam cannot run without permission to use the camera.</string>
-    <string name="storagePermissionRequiredToTakePhoto">AsciiCam needs permission to access storage in order to save photos.</string>
-    <string name="storagePermissionRequiredToGoToLibrary">AsciiCam needs permission to access storage in order to show your photo library.</string>
+    <string name="cameraPermissionRequired">AsciiCam 需要相机权限.</string>
+    <string name="storagePermissionRequiredToTakePhoto">AsciiCam 需要读写外部存储.</string>
+    <string name="storagePermissionRequiredToGoToLibrary">AsciiCam 需要读取外部存储来查看图库.</string>
 </resources>
